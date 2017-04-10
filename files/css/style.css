@@ -50,6 +50,10 @@ tr, tr a {
     color: #333;
 }
 
+select {
+    width: auto;
+}
+
 .content {
     padding-bottom: 40px;
     min-height: calc(100vh - 57px) !important;
