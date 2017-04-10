@@ -1,0 +1,109 @@
+
+
+html {
+    min-height: 100%;
+    background: white;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+body {
+    min-height: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body a {
+    font-weight: bold;
+    color: white;
+}
+
+body a:hover {
+    color: #fce28e;
+}
+
+h1,h2,h3,h4 {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.0em;
+    margin-top: 0;
+}
+
+hr {
+    margin: 0;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+body {
+    background: linear-gradient(#e57bac, #a200e3); /* Standard syntax */
+}
+
+tr, tr a {
+    color: #333;
+}
+
+.content {
+    padding-bottom: 40px;
+    min-height: calc(100vh - 57px) !important;
+}
+
+.header {
+    margin-bottom: 0px;
+}
+
+.sidebar {
+    font-size: 0.9em;
+    line-height: 0.9em;
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.rightbird {
+    position: absolute; 
+    right: 0; 
+    top: 20px; 
+    height: 250px;
+    z-index: 0;
+}
+
+.leftbird {
+    position: absolute; 
+    left: 0; 
+    top: 20px; 
+    height: 250px; 
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: 'FlipH';
+    z-index: 0;
+}
+
+.eyeball-hand {
+    width:160px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.more {
+    float: right;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6em;
+}
